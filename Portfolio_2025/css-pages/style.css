@@ -1,0 +1,151 @@
+body {
+    color: white;
+    background-color: #CCBCA0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 99%;
+    height: 100%;
+    
+}
+
+ul {
+    
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+
+    /* background-color: rgba(0, 0, 0, 0.626); */
+    background-color: #CCBCA0
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+    font-weight: bold;
+    
+}
+
+/* header img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    border: 5px solid rgba(118, 5, 5, 0.608);
+} */
+
+
+/* img {
+    width: 100%;
+    height: 710px;
+    align-items: center;
+    padding: 0;
+    margin: 0px;
+    border-radius: 10%;
+    
+    width: 100%;
+    height: auto;
+} */
+
+h1 {
+    color: rgba(0, 0, 0, 0.608);
+}
+
+/* footer img {
+    width: 200px;
+    height: 300px;
+} */
+
+
+h4 {
+    width: 10%;
+    height: 60px;
+    align-items: center;
+}
+
+
+
+
+
+/* Vídeo de fundo */
+#background-video {
+    
+    top: 80px; /* Ajuste a posição vertical conforme necessário */
+    left: 0;
+    width: 100%;
+    height: 950px;
+    object-fit: contain;
+
+    /* z-index: -1; Coloca o vídeo atrás de outros elementos */
+}
+
+
+    
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #CCBCA0;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .navbar a {
+        color: #000;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+
+
+
+    
+    .sobre-mim {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin: 40px;
+    }
+
+    .foto-perfil img {
+        width: 350px;
+        height: 600px;
+        border-radius: 10%;
+        object-fit: cover;
+    }
+
+    .descricao {
+        max-width: 800px;
+    }
+
+    .buttons .btn {
+        display: inline-block;
+        margin: 10px;
+        padding: 15px 25px;
+        text-decoration: none;
+        background-color: #000000;
+        color: white;
+        border-radius: 5px;
+        font-size: 1.2em;
+        transition: background-color 0.3s;
+    }
+
+    .buttons .btn:hover {
+        background-color: #0056b3;
+    }
+    
+   
